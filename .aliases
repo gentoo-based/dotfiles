@@ -63,7 +63,7 @@ alias s='su -c '
 #alias pacf='doas pacman -F'
 
 # File-related aliases
-alias cat='bat --tabs=8'
+alias cat='/usr/bin/cat'
 alias mv='mv -iv'
 alias rm='rm -iv'
 alias cp='cp -iv'

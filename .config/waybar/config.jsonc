@@ -4,8 +4,8 @@
     "height": 15, // Waybar height (to be removed for auto height)
     "spacing": 2, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["niri/workspaces"],
-    "modules-center": ["niri/window"],
+    "modules-left": ["sway/workspaces"],
+    "modules-center": ["sway/window"],
     "modules-right": ["tray", "backlight", "battery", "pulseaudio", "clock", "custom/power"],
     // Modules configuration
     "tray": {
@@ -13,12 +13,12 @@
         "rotate": 0,
         "spacing": 5
     },
-    "niri/workspaces": {
+    "sway/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
-        "format": "{icon}",
-        "format-icons": {
-      	    "1": "",
+//        "format": "{icon}",
+/*        "format-icons": {
+	          "1": "",
             "2": "󰈹",
             "3": "",
             "4": "",
@@ -29,7 +29,7 @@
             "9": "",
             "10": ""
         }
-    },
+*/    },
     "custom/power": {
         "format": "",
         "rotate": 0,
@@ -38,7 +38,7 @@
         "interval" : 86400, // once every day
         "tooltip": true
     },
-    "niri/window": {
+    "sway/window": {
         "format": "  {}",
         "rotate": 0,
         "separate-outputs": true,
@@ -164,12 +164,11 @@
     "pulseaudio": {
         "format": "{icon} {volume}",
         "rotate": 0,
-        "format-muted": "婢",
-        "on-click": "pavucontrol",
-        "on-scroll-up": "pamixer -i 5",
-        "on-scroll-down": "pamixer -d 5",
+        "format-muted": "󰝟",
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05+",
+        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.05-",
         "tooltip-format": "{icon} {desc} // {volume}%",
-        "scroll-step": 5,
         "format-icons": {
             "headphone": "",
             "hands-free": "",
