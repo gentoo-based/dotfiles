@@ -187,6 +187,7 @@ bindsym $mod+Shift+y exec $clipboard-del
 #
 # Workspaces:
 #
+		bindsym $mod+Shift+p exec 'IMG="$HOME/Pictures/Screenshots/Screenshot-$(date +"%Y-%M-%e-%I:%m:%S:%N").png" && grim -g "$(slurp)" $IMG && wl-copy < $IMG'
     # Switch to workspace
     bindsym $mod+1 workspace number 1
     bindsym $mod+2 workspace number 2
