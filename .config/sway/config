@@ -99,6 +99,7 @@ exec swww img $HOME/Pictures/wall.jpg
 
 bindsym $mod+y exec $clipboard
 bindsym $mod+Shift+y exec $clipboard-del
+
 #
 # Example configuration:
 #
