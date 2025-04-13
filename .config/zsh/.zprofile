@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # One Liner
-[[ "$(tty)" == "/dev/tty1" ]] && export "$(dbus-launch)" && dbus-run-session sway
+[[ "$(tty)" == "/dev/tty1" ]] && export "$(dbus-launch)" && dbus-run-session niri --session
 
 # If Statement
 

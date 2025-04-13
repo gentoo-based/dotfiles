@@ -207,7 +207,7 @@ layout {
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 // spawn-at-startup "alacritty" "-e" "fish"
-spawn-at-startup "sh" "-c" "gentoo-pipewire-launcher restart & waybar & xwayland-satellite & swww-daemon & swww img /home/gentoo/Pictures/wall.jpg & ~/.config/niri/xdg-desktop-portal"
+spawn-at-startup "sh" "-c" "gentoo-pipewire-launcher restart & waybar & xwayland-satellite & swww-daemon & swww img /home/gentoo/Pictures/wall.jpg & ~/.config/niri/xdg-desktop-portal & wl-paste --watch cliphist store & wl-paste --watch pkill -RTMIN+9 waybar"
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
@@ -317,11 +317,10 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
-    Mod+T { spawn "kitty"; }
+		Super+T { spawn "kitty"; }
 		Mod+Ctrl+Shift+R { spawn "sh" "-c" "killall waybar; waybar"; }
-    Mod+D { spawn "tofi-run"; }
-    // Super+Alt+L { spawn "swaylock"; }
-
+    Mod+D { spawn "wofi" "--show" "drun"; }
+    Super+Alt+L { spawn "gtklock"; }
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
     // Mod+T { spawn "bash" "-c" "notify-send hello && exec alacritty"; }
@@ -334,7 +333,8 @@ binds {
     XF86AudioMicMute     allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
 
     Mod+Q { close-window; }
-
+		Super+Y { spawn "sh" "-c" "cliphist list | wofi --show dmenu -p 'Select item to copy' | cliphist decode | wl-copy"; }
+		Super+Shift+Y { spawn "sh" "-c" "cliphist list | rofi --show dmenu -p 'Select item to delete' | cliphist delete"; }
     Mod+Left  { focus-column-left; }
     Mod+Down  { focus-window-down; }
     Mod+Up    { focus-window-up; }
