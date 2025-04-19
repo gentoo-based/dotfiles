@@ -13,24 +13,7 @@
         "rotate": 0,
         "spacing": 5
     },
-    "niri/workspaces": {
-        "disable-scroll": true,
-        "all-outputs": true,
-//        "format": "{icon}",
-/*        "format-icons": {
-	          "1": "",
-            "2": "󰈹",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": "",
-            "9": "",
-            "10": ""
-        }
-*/    },
-    "custom/power": {
+		"custom/power": {
         "format": "",
         "rotate": 0,
         "exec": "echo ; echo  Power Menu",
@@ -38,22 +21,32 @@
         "interval" : 86400, // once every day
         "tooltip": true
     },
-    "niri/window": {
-        "format": "  {}",
-        "rotate": 0,
-        "separate-outputs": true,
-        "rewrite": {
-            "$arch@$asus:(.*)": "$1 ",
-            "(.*) — Mozilla Firefox": "$1 󰈹",
-            "(.*) - Visual Studio Code": "$1 󰨞",
-            "(.*)Visual Studio Code": "Code 󰨞",
-            "(.*) — Dolphin": "$1 󰉋",
-            "(.*)Spotify": "Spotify 󰓇",
-            "(.*)Steam": "Steam 󰓓"
-        },
-        "max-length": 75
+    "niri/workspaces": {
+		"all-outputs": true,
+		"warp-on-scroll": false,
+		"format": "{name} {icon}",
+		"disable-tooltip": true,
+		"disable-markup": true,
+		"format": " {} ",
+		"format-icons": {
+			"active": "󰪥",
+			"default": "󰄰"
+		}
+		},
+    // "custom/window": {
+    //    "return-type": "json",
+    //    "max-length": 40,
+    //    "escape": true,
+    //    "exec": "$HOME/.config/waybar/modules/window.fish",
+    //    "format": "<i> {} </i>"
+    //},
+    "wlr/taskbar": {
+      "format": "{icon}",
+      "tooltip-format": "{title} | {app_id}",
+      "on-click": "activate",
+      "on-click-middle": "close",
+      "on-click-right": "fullscreen"
     },
-
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
