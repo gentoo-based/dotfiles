@@ -1,12 +1,16 @@
 #!/bin/env zsh
 #source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+export DOTNET_ROOT=$HOME/dotnet
+export PATH=$PATH:$HOME/dotnet:$HOME/Downloads/Omnisharp
 autoload -U compinit promptinit
 compinit
-promptinit; prompt gentoo
+fastfetch
+#promptinit; prompt gentoo
 
 source ~/.aliases
-cfetch
+#cfetch
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
@@ -38,5 +42,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'eza --icons=auto $realpath'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
+#source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
+
+eval "$(starship init zsh)"

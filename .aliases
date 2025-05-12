@@ -7,7 +7,7 @@ alias please="doas "
 #alias cd="z "
 alias mkdir="mkdir -p"
 alias c='clear' # clear terminal
-alias cl='clear; cfetch'
+alias cl='clear; fastfetch'
 alias r='clear; exec zsh; reset'
 
 # Printer stuff

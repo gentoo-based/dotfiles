@@ -12,7 +12,7 @@ set ignorecase true
 # Custom Functions
 cmd open ${{
     case $(file --mime-type "$f" -bL) in
-        text/*|application/json|application/lua) nvim "$f";;
+        text/*|application/json|application/lua) hx "$f";;
         application/x-executable) "$f";;
         *) xdg-open "$f" ;;
     esac
