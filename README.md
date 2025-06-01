@@ -1,5 +1,5 @@
 <h1 align="center">My Dotfiles for SwayFX or Niri</h1>
-<img src="Pictures/Screenshot.png" width="100%" />
+<img src="Pictures/Screenshots/Screenshot from 2025-06-01 11-59-35.png" width="100%" />
 
 This is where I keep all of my dotfiles and scripts for my rice.
 
