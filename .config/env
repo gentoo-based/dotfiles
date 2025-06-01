@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# default apps
+export EDITOR="hx"
+export TERMINAL="kitty"
+export BROWSER="firefox"
+
+# Adds ~/.local/bin and subfolders to $PATH
+export PATH="$PATH:$HOME/.cargo/bin"
+
+# cleaning up home folder
+# mkdir -p /run/users/$(id -u)
+# export XDG_RUNTIME_DIR=/run/users/$(id -u)
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_CACHE_HOME="$HOME/.cache"
+export GTK2_RC_FILES="$HOME/.config/gtk-2.0/gtkrc-2.0"
+export LESSHISTFILE="~"
+export WGETRC="$HOME/.config/wget/wgetrc"
+export INPUTRC="$HOME/.config/inputrc"
+export ZDOTDIR="$HOME/.config/zsh"
+export MANPAGER="less -R --use-color -Dd+r -Du+b"
+
+export LC_ALL=en_US.UTF-8

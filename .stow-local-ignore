@@ -1,0 +1,11 @@
+Notesnook
+gh
+.git
+.gitignore
+READM*
+LISENC*
+systemd
+unbound
+.service
+etc
+doas.conf

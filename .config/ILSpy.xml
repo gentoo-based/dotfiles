@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ILSpy version="7.2.0.0">
+  <AssemblyLists>
+    <List name="(Default)">
+      <Assembly>/home/gentoo/Downloads/artifacts/linux-x64/System.Private.CoreLib.dll</Assembly>
+      <Assembly>/home/gentoo/Downloads/artifacts/linux-x64/System.Private.Uri.dll</Assembly>
+      <Assembly>/home/gentoo/Downloads/artifacts/linux-x64/System.Linq.dll</Assembly>
+      <Assembly>/home/gentoo/Downloads/artifacts/linux-x64/System.Private.Xml.dll</Assembly>
+      <Assembly>/home/gentoo/.var/app/com.valvesoftware.Steam/.steam/steam/steamapps/common/People Playground/People Playground.exe</Assembly>
+      <Assembly>/home/gentoo/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/People Playground/CompiledModAssemblies/zooi-Hold K to make wires invisible-2137429065.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/CompiledModAssemblies/Aubarino-Functional Terminator Mod-2809137426.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground.exe</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Mono.Data.Sqlite.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Mono.Posix.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Mono.Security.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Mono.WebBrowser.dll</Assembly>
+      <Assembly>/home/gentoo/Downloads/artifacts/linux-x64/Avalonia.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/CompiledModAssemblies/A Random Guy-From The Cosmos-3375513431.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Assembly-CSharp.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/0Harmony.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Accessibility.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/endel.nativewebsocket.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/ImmersiveVRTools.Common.Runtime.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/LeTai.TranslucentImage.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/mscorlib.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/netstandard.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Newtonsoft.Json.UnityConverters.Addressables.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Novell.Directory.Ldap.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.ComponentModel.DataAnnotations.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Configuration.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Core.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Data.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Design.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.DirectoryServices.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Drawing.Design.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Drawing.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Drawing.Primitives.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.EnterpriseServices.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Globalization.Extensions.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.IO.Compression.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.IO.Compression.FileSystem.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Numerics.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Runtime.Serialization.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Runtime.Serialization.Xml.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Security.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.ServiceModel.Internals.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Transactions.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Web.ApplicationServices.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Web.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Web.Services.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Windows.Forms.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Xml.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Xml.Linq.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/System.Xml.XPath.XDocument.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Unity.Mathematics.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Unity.ScriptableBuildPipeline.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/Unity.VisualEffectGraph.Runtime.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.AccessibilityModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.AIModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.AndroidJNIModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.ARModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.AssetBundleModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.ClothModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.ClusterInputModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.ClusterRendererModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.CrashReportingModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.DirectorModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.DSPGraphModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.GameCenterModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.GIModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.GridModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.HotReloadModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.IMGUIModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.InputModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.LocalizationModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.PerformanceReportingModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.ProfilerModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.SharedInternalsModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.SpriteShapeModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.StreamingModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.SubstanceModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.SubsystemsModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.TerrainModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.TerrainPhysicsModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.TextCoreModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.TilemapModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.TLSModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UIElementsModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UIElementsNativeModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UmbraModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UNETModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UnityAnalyticsModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UnityConnectModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UnityCurlModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UnityTestProtocolModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UnityWebRequestModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.VehiclesModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.VFXModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.VirtualTexturingModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.VRModule.dll</Assembly>
+      <Assembly>/home/gentoo/.steam/steam/steamapps/common/People Playground/People Playground_Data/Managed/UnityEngine.XRModule.dll</Assembly>
+    </List>
+  </AssemblyLists>
+  <SessionSettings>
+    <FilterSettings>
+      <ShowAPILevel>1</ShowAPILevel>
+      <Language>C#</Language>
+      <LanguageVersion>CSharp8_0</LanguageVersion>
+    </FilterSettings>
+    <ActiveAssemblyList>(Default)</ActiveAssemblyList>
+    <ActiveTreeViewPath>
+      <Node>\x002Fhome\x002Fgentoo\x002F\x002Esteam\x002Fsteam\x002Fsteamapps\x002Fcommon\x002FPeople\x0020Playground\x002FCompiledModAssemblies\x002FA\x0020Random\x0020Guy\x002DFrom\x0020The\x0020Cosmos\x002D3375513431\x002Edll</Node>
+      <Node>Mod</Node>
+      <Node>DeathByTouch</Node>
+      <Node>frozen\x0020\x003A\x0020PhysicalBehaviour</Node>
+    </ActiveTreeViewPath>
+    <WindowState>Normal</WindowState>
+    <WindowBounds>0, 0, 1334, 710</WindowBounds>
+    <SplitterPosition>0.4</SplitterPosition>
+    <TopPaneSplitterPosition>0.3</TopPaneSplitterPosition>
+    <BottomPaneSplitterPosition>0.3</BottomPaneSplitterPosition>
+    <SelectedSearchMode>TypeAndMember</SelectedSearchMode>
+    <Theme>Dark</Theme>
+  </SessionSettings>
+  <UpdateSettings>
+    <AutomaticUpdateCheckEnabled>true</AutomaticUpdateCheckEnabled>
+    <LastSuccessfulUpdateCheck>2025-05-29T13:37:20.6179927Z</LastSuccessfulUpdateCheck>
+  </UpdateSettings>
+</ILSpy>
