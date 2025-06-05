@@ -27,7 +27,7 @@ For other projects made by me, go to my [Page](https://codeberg.org/based-kiryu)
 6. **[Pipewire](https://pipewire.org)**
 - PipeWire is a project that aims to greatly improve handling of audio and video under Linux. It provides a low-latency, graph-based processing engine on top of audio and video devices that can be used to support the use cases currently handled by both PulseAudio and JACK. PipeWire was designed with a powerful security model that makes interacting with audio and video devices from containerized applications easy, with support for Flatpak applications being the primary goal. Alongside Wayland and Flatpak, we expect PipeWire to provide a core building block for the future of Linux application development.
 
-7. **[Z Shell](https://zsh.sourceforge.io/)**
+7. **[ZSH](https://zsh.sourceforge.io/)**
 - Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh; many original features were added.
 
 <img src="Pictures/Screenshots/Screenshot from 2025-06-01 11-59-35.png" width="100%" />
