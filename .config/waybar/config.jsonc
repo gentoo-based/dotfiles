@@ -6,7 +6,7 @@
     // Choose the order of the modules
     "modules-left": ["niri/workspaces"],
     "modules-center": ["niri/window"],
-    "modules-right": ["tray", "backlight", "battery", "pipewire", "clock", "custom/power"],
+    "modules-right": ["tray", "backlight", "battery", "wireplumber", "clock", "custom/power"],
     // Modules configuration
     "tray": {
         "icon-size": 18,
@@ -150,7 +150,7 @@
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
 		
-    "pipewire": {
+    "wireplumber": {
         "format": "{icon} {volume}",
         "rotate": 0,
         "format-muted": "󰝟",
