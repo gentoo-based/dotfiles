@@ -108,7 +108,7 @@ layout {
     // - "always", the focused column will always be centered.
     // - "on-overflow", focusing a column will center it if it doesn't fit
     //   together with the previously focused column.
-    center-focused-column "always"
+    center-focused-column "never"
 
     // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
     preset-column-widths {
@@ -302,7 +302,8 @@ cursor {
 }
 
 binds {
-    // Keys consist of modifiers separated by + signs, followed by an XKB key name
+   Mod+W { toggle-column-tabbed-display; }
+  // Keys consist of modifiers separated by + signs, followed by an XKB key name
     // in the end. To find an XKB name for a particular key, you may use a program
     // like wev.
     //
