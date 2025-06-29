@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # default apps
-export EDITOR="hx"
+export EDITOR="nvim"
 export TERMINAL="kitty"
-export BROWSER="firefox"
+#export BROWSER="firefox"
 
 # Adds ~/.local/bin and subfolders to $PATH
 export PATH="$PATH:$HOME/.cargo/bin:$HOME/.local/bin"

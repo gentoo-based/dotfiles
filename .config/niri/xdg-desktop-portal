@@ -5,5 +5,7 @@ pkill xdg-desktop-portal-gnome &
 pkill xdg-desktop-portal-wlr &
 pkill sxdg-desktop-portal &
 /usr/libexec/xdg-desktop-portal-wlr &
+/usr/libexec/xdg-desktop-portal-gnome &
 sleep 2 &&
 /usr/libexec/xdg-desktop-portal &
+

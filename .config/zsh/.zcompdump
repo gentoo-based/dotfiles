@@ -1,4 +1,4 @@
-#files: 1155	version: 5.9
+#files: 1160	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -1114,6 +1114,7 @@ _comps=(
 'oksh' '_sh'
 'okular' '_okular'
 'open' '_open'
+'openrc' '_openrc'
 'openssl' '_openssl'
 'openstack' '_openstack'
 'openvpn3' '_openvpn3'
@@ -1338,6 +1339,9 @@ _comps=(
 'rcp' '_rlogin'
 'rcs' '_rcs'
 'rcsdiff' '_rcs'
+'rc-service' '_rc-service'
+'rc-status' '_rc-status'
+'rc-update' '_rc-update'
 'rdesktop' '_rdesktop'
 'read' '_read'
 'readelf' '_readelf'
@@ -1417,6 +1421,7 @@ _comps=(
 'rubocop' '_rubocop'
 'ruby' '_ruby'
 'ruby-mri' '_ruby'
+'ruff' '_ruff'
 'run-help' '_run-help'
 'rup' '_hosts'
 'rusage' '_precommand'
@@ -2111,13 +2116,14 @@ autoload -Uz _afew _android _archlinux-java _artisan _atach \
             _meson _middleman _mina _mix _mkcert \
             _mssh _mussh _mvn _nano _nanoc \
             _neofetch _networkQuality _nftables _ninja _node \
-            _nvm _openssl _openvpn3 _optirun _patchelf \
-            _patool _periscope _perl-cleaner _pgsql_utils _phing \
-            _pixz _pkcon _play _pm2 _port \
-            _portage _portage_utils _protoc _pulseaudio _pycpio \
-            _pygmentize _qmk _rails _ralio _redis-cli \
-            _rfkill _rkt _rmlint _rslsync _rspec \
-            _rsvm _rubocop _sbctl _sbt _scala \
+            _nvm _openrc _openssl _openvpn3 _optirun \
+            _patchelf _patool _periscope _perl-cleaner _pgsql_utils \
+            _phing _pixz _pkcon _play _pm2 \
+            _port _portage _portage_utils _protoc _pulseaudio \
+            _pycpio _pygmentize _qmk _rails _ralio \
+            _rc-service _rc-status _rc-update _redis-cli _rfkill \
+            _rkt _rmlint _rslsync _rspec _rsvm \
+            _rubocop _ruff _sbctl _sbt _scala \
             _screencapture _scrub _sdd _sdkmanager _setcap \
             _setup.py _sfdx _shellcheck _showoff _srm \
             _stack _subliminal _supervisorctl _svm _swww \

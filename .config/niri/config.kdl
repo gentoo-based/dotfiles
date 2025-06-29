@@ -214,7 +214,7 @@ spawn-at-startup "sh" "-c" "gentoo-pipewire-launcher restart & waybar & doas wg-
 // Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
 // This option will also fix border/focus ring drawing behind some semitransparent windows.
 // After enabling or disabling this, you need to restart the apps for this to take effect.
-// prefer-no-csd
+prefer-no-csd
 
 // You can change the path where screenshots are saved.
 // A ~ at the front will be expanded to the home directory.
@@ -476,15 +476,9 @@ binds {
 
     // Switches focus between the current and the previous workspace.
     // Mod+Tab { focus-workspace-previous; }
-
-    // Consume one window from the right into the focused column.
-    Mod+Comma  { consume-window-into-column; }
-    // Expel one window from the focused column to the right.
-    Mod+Period { expel-window-from-column; }
-
     // There are also commands that consume or expel a single window to the side.
-    Mod+BracketLeft  { consume-or-expel-window-left; }
-    Mod+BracketRight { consume-or-expel-window-right; }
+    Mod+Comma  { consume-or-expel-window-left; }
+    Mod+Period { consume-or-expel-window-right; }
 
     Mod+R { switch-preset-column-width; }
     Mod+Shift+R { switch-preset-window-height; }
