@@ -1,3 +1,26 @@
-
 [Default Applications]
 x-scheme-handler/ror2mm=r2modman.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/chrome=firefox-esr.desktop
+text/html=google-chrome.desktop
+application/x-extension-htm=firefox-esr.desktop
+application/x-extension-html=firefox-esr.desktop
+application/x-extension-shtml=firefox-esr.desktop
+application/xhtml+xml=firefox-esr.desktop
+application/x-extension-xhtml=firefox-esr.desktop
+application/x-extension-xht=firefox-esr.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Zen-1C8P82.desktop;userapp-Mullvad Browser-7A2382.desktop;firefox-esr.desktop;
+x-scheme-handler/https=userapp-Zen-1C8P82.desktop;userapp-Mullvad Browser-7A2382.desktop;firefox-esr.desktop;
+x-scheme-handler/chrome=userapp-Zen-1C8P82.desktop;userapp-Mullvad Browser-7A2382.desktop;firefox-esr.desktop;
+text/html=userapp-Zen-1C8P82.desktop;userapp-Mullvad Browser-7A2382.desktop;firefox-esr.desktop;
+application/x-extension-htm=userapp-Zen-1C8P82.desktop;userapp-Mullvad Browser-7A2382.desktop;firefox-esr.desktop;
+application/x-extension-html=userapp-Zen-1C8P82.desktop;userapp-Mullvad Browser-7A2382.desktop;firefox-esr.desktop;
+application/x-extension-shtml=userapp-Zen-1C8P82.desktop;userapp-Mullvad Browser-7A2382.desktop;firefox-esr.desktop;
+application/xhtml+xml=userapp-Zen-1C8P82.desktop;userapp-Mullvad Browser-7A2382.desktop;firefox-esr.desktop;
+application/x-extension-xhtml=userapp-Zen-1C8P82.desktop;userapp-Mullvad Browser-7A2382.desktop;firefox-esr.desktop;
+application/x-extension-xht=userapp-Zen-1C8P82.desktop;userapp-Mullvad Browser-7A2382.desktop;firefox-esr.desktop;
