@@ -3,11 +3,11 @@
 #source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export DOTNET_ROOT=$HOME/dotnet
-export PATH=$PATH:$HOME/dotnet:$HOME/Downloads/Omnisharp
 autoload -U compinit promptinit
 compinit
 compdef _doas doas=doas
 fastfetch
+source $HOME/.config/env
 #promptinit; prompt gentoo
 
 source ~/.aliases

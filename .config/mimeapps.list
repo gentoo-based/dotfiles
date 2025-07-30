@@ -1,17 +1,17 @@
 [Default Applications]
 x-scheme-handler/ror2mm=r2modman.desktop
-x-scheme-handler/http=google-chrome.desktop
-x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/http=trivalent.desktop
+x-scheme-handler/https=trivalent.desktop
 x-scheme-handler/chrome=firefox-esr.desktop
-text/html=google-chrome.desktop
+text/html=trivalent.desktop
 application/x-extension-htm=firefox-esr.desktop
 application/x-extension-html=firefox-esr.desktop
 application/x-extension-shtml=firefox-esr.desktop
 application/xhtml+xml=firefox-esr.desktop
 application/x-extension-xhtml=firefox-esr.desktop
 application/x-extension-xht=firefox-esr.desktop
-x-scheme-handler/about=google-chrome.desktop
-x-scheme-handler/unknown=google-chrome.desktop
+x-scheme-handler/about=trivalent.desktop
+x-scheme-handler/unknown=trivalent.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Zen-1C8P82.desktop;userapp-Mullvad Browser-7A2382.desktop;firefox-esr.desktop;
