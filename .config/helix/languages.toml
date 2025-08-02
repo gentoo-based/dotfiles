@@ -1,9 +1,3 @@
-[[language]]
-name = "python"
-auto-format = true
-language-servers = [
-    {name = "ruff"},
-]
-[language-server.ruff]
-command = "ruff"
-args = ["server"]
+[language-server.pylsp.config.pylsp]
+plugins.ruff.enabled = true
+plugins.black.enabled = true
