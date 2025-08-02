@@ -8,7 +8,7 @@ For other projects made by me, go to my [Page](https://codeberg.org/based-kiryu)
 
 ### Utilities that I use:
 1. **[dinit](https://github.com/davmac314/dinit)**
-- An initializer for any Linux systems that support it made by [Davmac](https://github.com/davmac314/). I use my very own [dinit overlay](https://codeberg.org/based-kiryu/chimera-gentoo)
+- An init system for any POSIX-compliant operating systems made by [Davmac](https://github.com/davmac314/). I use my very own [dinit overlay](https://codeberg.org/based-kiryu/chimera-gentoo)
 
 2. **[Trivalent](https://github.com/secureblue/Trivalent)**
 - A patch set for chromium that aims to harden the Chromium infrastructure.
@@ -28,13 +28,13 @@ For other projects made by me, go to my [Page](https://codeberg.org/based-kiryu)
 7. **[ZSH](https://zsh.sourceforge.io/)**
 - Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh; many original features were added.
 
-8. [Turnstile](https://github.com/chimera-linux/turnstile)
+8. **[Turnstile](https://github.com/chimera-linux/turnstile)**
 - It is an independent login/session tracker that is paired with seatd for my liking.
 
-9. [seatd](https://sr.ht/~kennylevinsen/seatd/)
+9. **[seatd](https://sr.ht/~kennylevinsen/seatd/)**
 - A minimal seat management daemon, and a universal seat management library.
 
-10. [kitty](https://github.com/kovidgoyal/kitty)
+10. **[kitty](https://github.com/kovidgoyal/kitty)**
 - Cross-platform, fast, feature-rich, GPU based terminal.
 
 <img src="Pictures/Screenshots/Screenshot from 2025-06-01 11-59-35.png" width="100%" />
